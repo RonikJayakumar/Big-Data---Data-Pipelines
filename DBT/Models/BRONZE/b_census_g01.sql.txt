@@ -1,0 +1,1 @@
+select * from BRONZE.CENSUS_G01

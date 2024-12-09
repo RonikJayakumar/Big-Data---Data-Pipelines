@@ -1,0 +1,12 @@
+sources:
+  - name: BRONZE
+    description: Raw data from CSV files
+    database: postgres
+    schema: BRONZE
+
+    tables:
+      - name: CENSUS_G01
+      - name: CENSUS_G02
+      - name: LGA_CODE
+      - name: LGA_SUBURB
+      - name: LISTING_DATA

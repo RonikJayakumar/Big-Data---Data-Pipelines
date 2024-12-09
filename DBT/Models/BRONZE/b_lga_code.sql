@@ -1,0 +1,1 @@
+select * from BRONZE.LGA_CODE
