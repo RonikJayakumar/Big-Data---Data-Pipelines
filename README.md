@@ -34,7 +34,7 @@ A dataset to help you join both datasets based on LGAs code and a mapping betwee
 3. Build an Airflow DAG with no set schedule interval (schedule_interval=None) that reads the data from the storage bucket and loads it into the raw tables within the Bronze schema on Postgres.
 
 ## Part 2: Design a data warehouse with dbt
-1. Create a data warehouse architecture on Postgres using the Medallion architecture (Bronze, Silver, Gold) with dbt. Include at least 4 dimension tables (e.g., listing, host, suburb, LGA, etc.) along with two Census tables as reference data in the Gold layer. The layers are defined as follows:
+Create a data warehouse architecture on Postgres using the Medallion architecture (Bronze, Silver, Gold) with dbt. Include at least 4 dimension tables (e.g., listing, host, suburb, LGA, etc.) along with two Census tables as reference data in the Gold layer. The layers are defined as follows:
 
   Bronze: Stores the raw tables loaded from Airflow and any additional tables derived from this raw data, particularly focusing on the Airbnb dataset.
 
